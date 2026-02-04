@@ -1,7 +1,7 @@
 resource "opennebula_virtual_machine" "web_server" {
   name        = "web-prod-${var.user_id}"
   template_id = var.template_base_id
-  memory      = 1024
+  memory      = 2048
   vcpu        = 2
 
 
